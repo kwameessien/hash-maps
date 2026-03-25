@@ -48,6 +48,10 @@ class HashMap {
     }
     return null;
   }
+
+  print(key) {
+    console.log(this.retrieve(key));
+  }
 }
 
 module.exports = HashMap;
